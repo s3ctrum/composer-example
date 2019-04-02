@@ -1,0 +1,21 @@
+{
+    "name": "s3ctrum/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "s3ctrum opus",
+            "email": "s3ctrum@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "s3ctrum\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
